@@ -1,0 +1,175 @@
+ 
+<style>
+    *{
+        padding: 0;
+        margin: 0px;
+    }
+    #form{
+        background-image: url("form.image.jpg");
+        background-size: cover;
+        flex-wrap: wrap;
+        
+    } 
+    .Aname{
+         font-size: 20px; 
+         border: 3px royalblue solid;
+         margin-top: 10px;
+         box-shadow: 5px 10px 10px gray;
+
+         
+    }
+    .about{
+        display: flex;
+        justify-content: right;
+        margin-right: 100px;
+       
+    }
+    h1{
+         padding: 2% 150px 0% 150px;
+         font-size: 30px; 
+         margin-left: 60px;
+         margin-top: 55px;
+         line-height: 70px;
+         font-weight: 900;
+         /* color: royalblue; */
+         color: green;
+         font-family: 'Style Script', cursive;
+         text-shadow: 5px 10px 10px gray;
+    }
+    .name{
+        margin: 30px 80px 20px 80px;
+         font-size: 20px; 
+         text-shadow: 5px 10px 10px gray;
+    }
+   
+    .topic{
+        margin:5px 80px 7px 80px;
+        font-size: 30px;
+        text-shadow: 5px 10px 10px gray;
+        font-size: 20px;
+        }
+    .Atopic{
+        font-size: 20px;
+        margin-top: 10px;
+        box-shadow: 5px 10px 10px gray;
+        border: royalblue solid 3px;
+    }
+    .describe{
+        margin:15px 80px 7px 80px;
+    } 
+    .email{
+        margin:15px 80px 7px 80px;
+        font-size: 20px;
+        text-shadow: 5px 10px 10px gray;
+    }
+    .textarea{
+        margin:15px 80px 7px 80px;
+        font-style: italic;
+    }
+    .Atextarea{
+        font-style: italic;
+        font-weight: bold;
+        border: royalblue solid 4px;
+        box-shadow: 5px 10px 10px gray;
+    }
+    .Aemail{
+        font-size: 20px;
+        border: royalblue 3px solid;
+        border-radius: 5px;
+        margin-top: 10px;
+        box-shadow: 5px 10px 10px gray;
+
+    }
+    .describe{
+        margin:15px 80px 7px 80px;
+        font-size: 20px;
+        text-shadow: 5px 10px 10px black;
+    }
+    .button{
+        position: relative;
+        left: 250px;
+        top: 23px;
+        color: royalblue;
+        margin: 5px 0;
+        transform: scale(1.5);
+         border-radius: 20%
+     }
+     .reset{
+        position: relative;
+        left: 400px;  
+        margin: 5px 0 ;
+        transform: scale(1.5);
+         border-radius: 20%;
+     }
+
+      .home{  
+    position: relative;
+    top: 30px;
+    right: 64px;
+    border-radius: 20%;
+    text-decoration: none;
+      }
+
+    
+
+     
+
+</style>
+
+
+
+<html>
+<section id="form"> 
+    <div class="about"> 
+    <h1>If you want to suggest any more topics on which I should make a website, then please fill the given form .</h1> 
+    <body>
+    
+          <div class="home">
+              <button ><a href="file:///F:/HTML%20and%20CSS/Billionaire.html" target="_blank">Home</a></button> 
+              
+
+          </div>
+        <form action="form data.php"> 
+            <div class="name">
+             <strong> Name</strong> <br>
+               <input class="Aname" type="text" placeholder="Write your name" name="myname" size="30"> 
+            </div> 
+            
+          <div class="email">
+         <strong> E-mail </strong> <br>
+          <input class="Aemail" type="email" placeholder="Write your E-mail" name="myemail" size="30"> <box><text><small><em class="note">*Note- We need your Email only to confirm you that your topic has been considered.</em></small></text></box>
+          
+          </div>  
+          <br>
+          <div class="topic">
+    
+            <strong>Topic</strong> <input class="Atopic" type="text" placeholder="Topic you want to suggest"  name="mytopic" size="30"> <br>
+    
+          </div> 
+    
+          <br> 
+    
+        <div class="describe">
+           Describe your topic here:
+           </div>
+    
+           <div class="textarea">
+            <textarea name="Describe topic" id="explain" type="text" placeholder="Describe your topic" name="mybox" cols="40" rows="10" class="Atextarea"> </textarea>
+          </div>
+    
+          <div class="button">
+             <input type="submit" value="submit now" target=”_blank” >
+          </div>
+          <div class="reset">
+              <input type="reset" value="reset">
+          </div>
+        </form>
+    <!--end of form-->
+    
+        </div> 
+    </div>
+    
+    <br>
+
+</section>
+    </html>
